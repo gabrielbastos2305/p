@@ -62,6 +62,20 @@ p{
 }
 
 a{
+    display: block;
     color: white;
     text-decoration: none;
+    background-color: gray;
+    margin-bottom: 16px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+a:hover{
+    background-color: greenyellow;
+    color: gray;
+    transition: 0.6s;
 }
